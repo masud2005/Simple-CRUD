@@ -1,6 +1,6 @@
 
 import cors from 'cors';
-import express, { Request, Response } from 'express';
+import express from 'express';
 const app = express();
 
 // Middleware
