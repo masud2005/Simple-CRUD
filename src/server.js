@@ -5,7 +5,7 @@ import { MongoClient } from 'mongodb';
 let server;
 const port = 5000;
 
-const uri = "mongodb+srv://<db_username>:<db_password>@cluster0.cckud.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const uri = "mongodb+srv://simpleCRUD:simpleCRUD@cluster0.cckud.mongodb.net/simpleCrud?retryWrites=true&w=majority&appName=Cluster0";
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
